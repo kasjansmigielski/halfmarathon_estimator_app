@@ -45888,3 +45888,1446 @@ dtype: int64}]))),
 2024-10-20 19:42:19,144:INFO:Preloading libraries
 2024-10-20 19:42:19,144:INFO:Set up data.
 2024-10-20 19:42:19,147:INFO:Set up index.
+2024-10-20 19:55:11,430:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 19:55:11,430:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 19:55:11,430:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 19:55:11,430:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 19:55:44,200:INFO:Initializing load_model()
+2024-10-20 19:55:44,200:INFO:load_model(model_name=linear_regression_pipeline, platform=None, authentication=None, verbose=True)
+2024-10-20 19:55:44,397:INFO:Initializing predict_model()
+2024-10-20 19:55:44,397:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fca2ad0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x133ea4e00>)
+2024-10-20 19:55:44,397:INFO:Checking exceptions
+2024-10-20 19:55:44,397:INFO:Preloading libraries
+2024-10-20 19:55:44,398:INFO:Set up data.
+2024-10-20 19:55:44,404:INFO:Set up index.
+2024-10-20 19:55:47,408:INFO:Initializing predict_model()
+2024-10-20 19:55:47,409:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fea3690>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2a340>)
+2024-10-20 19:55:47,409:INFO:Checking exceptions
+2024-10-20 19:55:47,409:INFO:Preloading libraries
+2024-10-20 19:55:47,410:INFO:Set up data.
+2024-10-20 19:55:47,413:INFO:Set up index.
+2024-10-20 19:55:53,136:INFO:Initializing predict_model()
+2024-10-20 19:55:53,138:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fe94190>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe28e0>)
+2024-10-20 19:55:53,138:INFO:Checking exceptions
+2024-10-20 19:55:53,138:INFO:Preloading libraries
+2024-10-20 19:55:53,138:INFO:Set up data.
+2024-10-20 19:55:53,141:INFO:Set up index.
+2024-10-20 19:56:48,397:INFO:Initializing predict_model()
+2024-10-20 19:56:48,397:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd7e2d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2aa20>)
+2024-10-20 19:56:48,398:INFO:Checking exceptions
+2024-10-20 19:56:48,398:INFO:Preloading libraries
+2024-10-20 19:56:48,398:INFO:Set up data.
+2024-10-20 19:56:48,402:INFO:Set up index.
+2024-10-20 19:56:57,751:INFO:Initializing predict_model()
+2024-10-20 19:56:57,752:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fc68ed0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1400bbf60>)
+2024-10-20 19:56:57,752:INFO:Checking exceptions
+2024-10-20 19:56:57,752:INFO:Preloading libraries
+2024-10-20 19:56:57,752:INFO:Set up data.
+2024-10-20 19:56:57,755:INFO:Set up index.
+2024-10-20 19:57:21,617:INFO:Initializing predict_model()
+2024-10-20 19:57:21,621:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd67610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea71a0>)
+2024-10-20 19:57:21,621:INFO:Checking exceptions
+2024-10-20 19:57:21,621:INFO:Preloading libraries
+2024-10-20 19:57:21,621:INFO:Set up data.
+2024-10-20 19:57:21,624:INFO:Set up index.
+2024-10-20 19:57:37,828:INFO:Initializing predict_model()
+2024-10-20 19:57:37,829:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fc59150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea49a0>)
+2024-10-20 19:57:37,829:INFO:Checking exceptions
+2024-10-20 19:57:37,829:INFO:Preloading libraries
+2024-10-20 19:57:37,829:INFO:Set up data.
+2024-10-20 19:57:37,835:INFO:Set up index.
+2024-10-20 19:58:02,433:INFO:Initializing predict_model()
+2024-10-20 19:58:02,437:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fe97610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2bf60>)
+2024-10-20 19:58:02,438:INFO:Checking exceptions
+2024-10-20 19:58:02,439:INFO:Preloading libraries
+2024-10-20 19:58:02,439:INFO:Set up data.
+2024-10-20 19:58:02,442:INFO:Set up index.
+2024-10-20 19:58:32,681:INFO:Initializing predict_model()
+2024-10-20 19:58:32,681:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fea3590>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea6e80>)
+2024-10-20 19:58:32,681:INFO:Checking exceptions
+2024-10-20 19:58:32,681:INFO:Preloading libraries
+2024-10-20 19:58:32,682:INFO:Set up data.
+2024-10-20 19:58:32,685:INFO:Set up index.
+2024-10-20 19:59:34,333:INFO:Initializing predict_model()
+2024-10-20 19:59:34,338:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd84b10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2b380>)
+2024-10-20 19:59:34,338:INFO:Checking exceptions
+2024-10-20 19:59:34,339:INFO:Preloading libraries
+2024-10-20 19:59:34,339:INFO:Set up data.
+2024-10-20 19:59:34,341:INFO:Set up index.
+2024-10-20 19:59:40,193:INFO:Initializing predict_model()
+2024-10-20 19:59:40,193:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fc583d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe34c0>)
+2024-10-20 19:59:40,193:INFO:Checking exceptions
+2024-10-20 19:59:40,193:INFO:Preloading libraries
+2024-10-20 19:59:40,193:INFO:Set up data.
+2024-10-20 19:59:40,197:INFO:Set up index.
+2024-10-20 20:16:10,349:INFO:Initializing predict_model()
+2024-10-20 20:16:10,352:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd74bd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea4ae0>)
+2024-10-20 20:16:10,352:INFO:Checking exceptions
+2024-10-20 20:16:10,352:INFO:Preloading libraries
+2024-10-20 20:16:10,352:INFO:Set up data.
+2024-10-20 20:16:10,356:INFO:Set up index.
+2024-10-20 20:33:08,658:INFO:Initializing predict_model()
+2024-10-20 20:33:08,661:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd53890>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea68e0>)
+2024-10-20 20:33:08,661:INFO:Checking exceptions
+2024-10-20 20:33:08,661:INFO:Preloading libraries
+2024-10-20 20:33:08,661:INFO:Set up data.
+2024-10-20 20:33:08,666:INFO:Set up index.
+2024-10-20 20:36:49,367:INFO:Initializing predict_model()
+2024-10-20 20:36:49,368:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fca24d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea68e0>)
+2024-10-20 20:36:49,369:INFO:Checking exceptions
+2024-10-20 20:36:49,369:INFO:Preloading libraries
+2024-10-20 20:36:49,372:INFO:Set up data.
+2024-10-20 20:36:49,376:INFO:Set up index.
+2024-10-20 20:36:52,882:INFO:Initializing predict_model()
+2024-10-20 20:36:52,882:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fea9350>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe3880>)
+2024-10-20 20:36:52,882:INFO:Checking exceptions
+2024-10-20 20:36:52,882:INFO:Preloading libraries
+2024-10-20 20:36:52,883:INFO:Set up data.
+2024-10-20 20:36:52,886:INFO:Set up index.
+2024-10-20 20:37:34,815:INFO:Initializing predict_model()
+2024-10-20 20:37:34,815:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd66550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe2ca0>)
+2024-10-20 20:37:34,815:INFO:Checking exceptions
+2024-10-20 20:37:34,815:INFO:Preloading libraries
+2024-10-20 20:37:34,816:INFO:Set up data.
+2024-10-20 20:37:34,819:INFO:Set up index.
+2024-10-20 20:37:42,477:INFO:Initializing predict_model()
+2024-10-20 20:37:42,477:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fbf6fd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe3ec0>)
+2024-10-20 20:37:42,477:INFO:Checking exceptions
+2024-10-20 20:37:42,478:INFO:Preloading libraries
+2024-10-20 20:37:42,478:INFO:Set up data.
+2024-10-20 20:37:42,481:INFO:Set up index.
+2024-10-20 20:38:07,668:INFO:Initializing predict_model()
+2024-10-20 20:38:07,669:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd511d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea4220>)
+2024-10-20 20:38:07,669:INFO:Checking exceptions
+2024-10-20 20:38:07,669:INFO:Preloading libraries
+2024-10-20 20:38:07,669:INFO:Set up data.
+2024-10-20 20:38:07,673:INFO:Set up index.
+2024-10-20 20:41:21,060:INFO:Initializing predict_model()
+2024-10-20 20:41:21,061:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fcafe90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fec8360>)
+2024-10-20 20:41:21,061:INFO:Checking exceptions
+2024-10-20 20:41:21,061:INFO:Preloading libraries
+2024-10-20 20:41:21,062:INFO:Set up data.
+2024-10-20 20:41:21,067:INFO:Set up index.
+2024-10-20 20:41:53,552:INFO:Initializing predict_model()
+2024-10-20 20:41:53,553:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ffcf2d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe31a0>)
+2024-10-20 20:41:53,553:INFO:Checking exceptions
+2024-10-20 20:41:53,553:INFO:Preloading libraries
+2024-10-20 20:41:53,554:INFO:Set up data.
+2024-10-20 20:41:53,556:INFO:Set up index.
+2024-10-20 20:48:57,555:INFO:Initializing predict_model()
+2024-10-20 20:48:57,556:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ff50e90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2b380>)
+2024-10-20 20:48:57,556:INFO:Checking exceptions
+2024-10-20 20:48:57,556:INFO:Preloading libraries
+2024-10-20 20:48:57,557:INFO:Set up data.
+2024-10-20 20:48:57,585:INFO:Set up index.
+2024-10-20 20:49:18,605:INFO:Initializing predict_model()
+2024-10-20 20:49:18,606:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fe95bd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fec8360>)
+2024-10-20 20:49:18,606:INFO:Checking exceptions
+2024-10-20 20:49:18,606:INFO:Preloading libraries
+2024-10-20 20:49:18,607:INFO:Set up data.
+2024-10-20 20:49:18,614:INFO:Set up index.
+2024-10-20 20:49:52,945:INFO:Initializing predict_model()
+2024-10-20 20:49:52,946:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd53890>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2a2a0>)
+2024-10-20 20:49:52,946:INFO:Checking exceptions
+2024-10-20 20:49:52,946:INFO:Preloading libraries
+2024-10-20 20:49:52,947:INFO:Set up data.
+2024-10-20 20:49:52,949:INFO:Set up index.
+2024-10-20 20:51:25,396:INFO:Initializing predict_model()
+2024-10-20 20:51:25,399:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd51150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2b560>)
+2024-10-20 20:51:25,399:INFO:Checking exceptions
+2024-10-20 20:51:25,399:INFO:Preloading libraries
+2024-10-20 20:51:25,400:INFO:Set up data.
+2024-10-20 20:51:25,403:INFO:Set up index.
+2024-10-20 20:54:11,343:INFO:Initializing predict_model()
+2024-10-20 20:54:11,346:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fca3dd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe36a0>)
+2024-10-20 20:54:11,347:INFO:Checking exceptions
+2024-10-20 20:54:11,347:INFO:Preloading libraries
+2024-10-20 20:54:11,349:INFO:Set up data.
+2024-10-20 20:54:11,358:INFO:Set up index.
+2024-10-20 20:54:30,936:INFO:Initializing predict_model()
+2024-10-20 20:54:30,936:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x110e3e950>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea4a40>)
+2024-10-20 20:54:30,937:INFO:Checking exceptions
+2024-10-20 20:54:30,937:INFO:Preloading libraries
+2024-10-20 20:54:30,937:INFO:Set up data.
+2024-10-20 20:54:30,940:INFO:Set up index.
+2024-10-20 20:56:27,169:INFO:Initializing predict_model()
+2024-10-20 20:56:27,171:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ff11a50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea5ee0>)
+2024-10-20 20:56:27,171:INFO:Checking exceptions
+2024-10-20 20:56:27,171:INFO:Preloading libraries
+2024-10-20 20:56:27,172:INFO:Set up data.
+2024-10-20 20:56:27,175:INFO:Set up index.
+2024-10-20 20:56:31,404:INFO:Initializing predict_model()
+2024-10-20 20:56:31,404:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ffeda10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe1c400>)
+2024-10-20 20:56:31,405:INFO:Checking exceptions
+2024-10-20 20:56:31,405:INFO:Preloading libraries
+2024-10-20 20:56:31,405:INFO:Set up data.
+2024-10-20 20:56:31,410:INFO:Set up index.
+2024-10-20 20:57:36,071:INFO:Initializing predict_model()
+2024-10-20 20:57:36,088:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13feab550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea4540>)
+2024-10-20 20:57:36,089:INFO:Checking exceptions
+2024-10-20 20:57:36,089:INFO:Preloading libraries
+2024-10-20 20:57:36,089:INFO:Set up data.
+2024-10-20 20:57:36,092:INFO:Set up index.
+2024-10-20 20:57:59,547:INFO:Initializing predict_model()
+2024-10-20 20:57:59,551:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ffef910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca480>)
+2024-10-20 20:57:59,551:INFO:Checking exceptions
+2024-10-20 20:57:59,551:INFO:Preloading libraries
+2024-10-20 20:57:59,552:INFO:Set up data.
+2024-10-20 20:57:59,559:INFO:Set up index.
+2024-10-20 20:58:55,137:INFO:Initializing predict_model()
+2024-10-20 20:58:55,139:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fca3110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea6160>)
+2024-10-20 20:58:55,141:INFO:Checking exceptions
+2024-10-20 20:58:55,141:INFO:Preloading libraries
+2024-10-20 20:58:55,141:INFO:Set up data.
+2024-10-20 20:58:55,144:INFO:Set up index.
+2024-10-20 21:04:11,720:INFO:Initializing predict_model()
+2024-10-20 21:04:11,720:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd7e010>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fecae80>)
+2024-10-20 21:04:11,721:INFO:Checking exceptions
+2024-10-20 21:04:11,721:INFO:Preloading libraries
+2024-10-20 21:04:11,721:INFO:Set up data.
+2024-10-20 21:04:11,725:INFO:Set up index.
+2024-10-20 21:04:39,982:INFO:Initializing predict_model()
+2024-10-20 21:04:39,982:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1400c51d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea67a0>)
+2024-10-20 21:04:39,982:INFO:Checking exceptions
+2024-10-20 21:04:39,982:INFO:Preloading libraries
+2024-10-20 21:04:39,983:INFO:Set up data.
+2024-10-20 21:04:39,989:INFO:Set up index.
+2024-10-20 21:04:45,121:INFO:Initializing predict_model()
+2024-10-20 21:04:45,121:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ff4fd90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea71a0>)
+2024-10-20 21:04:45,121:INFO:Checking exceptions
+2024-10-20 21:04:45,121:INFO:Preloading libraries
+2024-10-20 21:04:45,122:INFO:Set up data.
+2024-10-20 21:04:45,125:INFO:Set up index.
+2024-10-20 21:11:50,072:INFO:Initializing load_model()
+2024-10-20 21:11:50,073:INFO:load_model(model_name=linear_regression_pipeline, platform=None, authentication=None, verbose=True)
+2024-10-20 21:11:50,144:INFO:Initializing predict_model()
+2024-10-20 21:11:50,145:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ffb1a50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fecb880>)
+2024-10-20 21:11:50,145:INFO:Checking exceptions
+2024-10-20 21:11:50,145:INFO:Preloading libraries
+2024-10-20 21:11:50,145:INFO:Set up data.
+2024-10-20 21:11:50,173:INFO:Set up index.
+2024-10-20 21:12:00,656:INFO:Initializing predict_model()
+2024-10-20 21:12:00,656:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x110d9ea10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca520>)
+2024-10-20 21:12:00,657:INFO:Checking exceptions
+2024-10-20 21:12:00,657:INFO:Preloading libraries
+2024-10-20 21:12:00,657:INFO:Set up data.
+2024-10-20 21:12:00,660:INFO:Set up index.
+2024-10-20 21:12:07,318:INFO:Initializing predict_model()
+2024-10-20 21:12:07,319:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fe94150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca160>)
+2024-10-20 21:12:07,319:INFO:Checking exceptions
+2024-10-20 21:12:07,319:INFO:Preloading libraries
+2024-10-20 21:12:07,319:INFO:Set up data.
+2024-10-20 21:12:07,322:INFO:Set up index.
+2024-10-20 21:12:27,482:INFO:Initializing predict_model()
+2024-10-20 21:12:27,482:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd66490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fecb880>)
+2024-10-20 21:12:27,482:INFO:Checking exceptions
+2024-10-20 21:12:27,482:INFO:Preloading libraries
+2024-10-20 21:12:27,482:INFO:Set up data.
+2024-10-20 21:12:27,485:INFO:Set up index.
+2024-10-20 21:12:58,380:INFO:Initializing predict_model()
+2024-10-20 21:12:58,382:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd81b50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fd35da0>)
+2024-10-20 21:12:58,382:INFO:Checking exceptions
+2024-10-20 21:12:58,382:INFO:Preloading libraries
+2024-10-20 21:12:58,382:INFO:Set up data.
+2024-10-20 21:12:58,385:INFO:Set up index.
+2024-10-20 21:13:19,242:INFO:Initializing predict_model()
+2024-10-20 21:13:19,245:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd82a90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ffe2840>)
+2024-10-20 21:13:19,245:INFO:Checking exceptions
+2024-10-20 21:13:19,245:INFO:Preloading libraries
+2024-10-20 21:13:19,246:INFO:Set up data.
+2024-10-20 21:13:19,251:INFO:Set up index.
+2024-10-20 21:14:05,683:INFO:Initializing predict_model()
+2024-10-20 21:14:05,686:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd74b10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fecb7e0>)
+2024-10-20 21:14:05,686:INFO:Checking exceptions
+2024-10-20 21:14:05,686:INFO:Preloading libraries
+2024-10-20 21:14:05,686:INFO:Set up data.
+2024-10-20 21:14:05,689:INFO:Set up index.
+2024-10-20 21:15:48,079:INFO:Initializing predict_model()
+2024-10-20 21:15:48,088:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd7e2d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca980>)
+2024-10-20 21:15:48,088:INFO:Checking exceptions
+2024-10-20 21:15:48,088:INFO:Preloading libraries
+2024-10-20 21:15:48,089:INFO:Set up data.
+2024-10-20 21:15:48,095:INFO:Set up index.
+2024-10-20 21:16:31,207:INFO:Initializing predict_model()
+2024-10-20 21:16:31,210:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd66850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2bec0>)
+2024-10-20 21:16:31,210:INFO:Checking exceptions
+2024-10-20 21:16:31,210:INFO:Preloading libraries
+2024-10-20 21:16:31,210:INFO:Set up data.
+2024-10-20 21:16:31,213:INFO:Set up index.
+2024-10-20 21:16:50,339:INFO:Initializing predict_model()
+2024-10-20 21:16:50,340:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fef6410>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2b100>)
+2024-10-20 21:16:50,340:INFO:Checking exceptions
+2024-10-20 21:16:50,340:INFO:Preloading libraries
+2024-10-20 21:16:50,341:INFO:Set up data.
+2024-10-20 21:16:50,343:INFO:Set up index.
+2024-10-20 21:17:04,077:INFO:Initializing predict_model()
+2024-10-20 21:17:04,077:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fee4610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea4d60>)
+2024-10-20 21:17:04,077:INFO:Checking exceptions
+2024-10-20 21:17:04,077:INFO:Preloading libraries
+2024-10-20 21:17:04,077:INFO:Set up data.
+2024-10-20 21:17:04,087:INFO:Set up index.
+2024-10-20 21:18:10,218:INFO:Initializing predict_model()
+2024-10-20 21:18:10,220:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fcc9dd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea67a0>)
+2024-10-20 21:18:10,220:INFO:Checking exceptions
+2024-10-20 21:18:10,220:INFO:Preloading libraries
+2024-10-20 21:18:10,221:INFO:Set up data.
+2024-10-20 21:18:10,223:INFO:Set up index.
+2024-10-20 21:18:23,143:INFO:Initializing predict_model()
+2024-10-20 21:18:23,146:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ff51d10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea6e80>)
+2024-10-20 21:18:23,146:INFO:Checking exceptions
+2024-10-20 21:18:23,146:INFO:Preloading libraries
+2024-10-20 21:18:23,146:INFO:Set up data.
+2024-10-20 21:18:23,150:INFO:Set up index.
+2024-10-20 21:18:29,470:INFO:Initializing predict_model()
+2024-10-20 21:18:29,470:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x110e3e350>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fe2a980>)
+2024-10-20 21:18:29,470:INFO:Checking exceptions
+2024-10-20 21:18:29,470:INFO:Preloading libraries
+2024-10-20 21:18:29,471:INFO:Set up data.
+2024-10-20 21:18:29,474:INFO:Set up index.
+2024-10-20 21:18:40,331:INFO:Initializing predict_model()
+2024-10-20 21:18:40,331:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd7d750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fea5760>)
+2024-10-20 21:18:40,331:INFO:Checking exceptions
+2024-10-20 21:18:40,331:INFO:Preloading libraries
+2024-10-20 21:18:40,331:INFO:Set up data.
+2024-10-20 21:18:40,334:INFO:Set up index.
+2024-10-20 21:20:24,956:INFO:Initializing predict_model()
+2024-10-20 21:20:24,960:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fe97fd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca160>)
+2024-10-20 21:20:24,960:INFO:Checking exceptions
+2024-10-20 21:20:24,960:INFO:Preloading libraries
+2024-10-20 21:20:24,961:INFO:Set up data.
+2024-10-20 21:20:24,965:INFO:Set up index.
+2024-10-20 21:20:58,167:INFO:Initializing predict_model()
+2024-10-20 21:20:58,168:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fc55550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13fecba60>)
+2024-10-20 21:20:58,169:INFO:Checking exceptions
+2024-10-20 21:20:58,169:INFO:Preloading libraries
+2024-10-20 21:20:58,169:INFO:Set up data.
+2024-10-20 21:20:58,172:INFO:Set up index.
+2024-10-20 21:21:06,043:INFO:Initializing predict_model()
+2024-10-20 21:21:06,044:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd64150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x110e07740>)
+2024-10-20 21:21:06,044:INFO:Checking exceptions
+2024-10-20 21:21:06,045:INFO:Preloading libraries
+2024-10-20 21:21:06,045:INFO:Set up data.
+2024-10-20 21:21:06,048:INFO:Set up index.
+2024-10-20 21:22:42,299:INFO:Initializing predict_model()
+2024-10-20 21:22:42,301:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13fd51490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13feca660>)
+2024-10-20 21:22:42,301:INFO:Checking exceptions
+2024-10-20 21:22:42,301:INFO:Preloading libraries
+2024-10-20 21:22:42,302:INFO:Set up data.
+2024-10-20 21:22:42,304:INFO:Set up index.

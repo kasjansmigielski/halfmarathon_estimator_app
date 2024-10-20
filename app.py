@@ -119,16 +119,15 @@ if st.session_state['greeted']:
     with st.expander('Opisz siebie', expanded=False):
         st.markdown('#### Podaj następujące informacje o sobie:\n - wiek\n - płeć\n - czas na 5km\n - czas na 10km\n - tempo w jakim jesteś w stanie przebiec 15km\n ###### <span style="color:red">Przykład:</span> Mam 28 lat, jestem mężczyzną, 5km przebiegam w 22 minuty, 10km w 50 minut, natomiast na 15km utrzymam tempo 5:30 min/km.', unsafe_allow_html=True)
         
-        if not 'user_data' in st.session_state:
+        if 'user_data' not in st.session_state:
             st.session_state['user_data'] = ""
-        
-        user_data = st.text_area('Tutaj wpisz informacje:', value=st.session_state['user_data'])
-        
+
+        st.session_state['user_data'] = st.text_area('Tutaj wpisz informacje:', value=st.session_state['user_data'])
+
         if st.button('Estymuj czas przebiegnięcia półmaratonu', use_container_width=True):
         
-            if user_data:
-                st.session_state['user_data'] = user_data
-
+            if st.session_state['user_data']:
+                
                 data_for_predict = retrieve_structure_observed(st.session_state['user_data'], User)
 
                 missing_columns = []
@@ -165,12 +164,12 @@ if st.session_state['greeted']:
                         prediction_time = str(datetime.timedelta(seconds=int(prediction_seconds)))
                         estimate_result = st.success(f'Estymowany czas ukończenia półmaratonu (w formacie: H:M:S) wynosi {prediction_time}')
                         #st.write(data_for_predict)
-                        if estimate_result:
-                            st.session_state['user_data'] = ""
-                            if st.button('Wyczyść'):
-                                st.rerun()
-
             else:
                 st.error('Najpierw dodaj informacje o sobie!')
+
+        if st.button('Wyczyść'):
+            st.session_state['user_data'] = ""
+            st.rerun()
+      
         
 
