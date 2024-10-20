@@ -45220,3 +45220,40 @@ dtype: int64}]))),
 2024-10-20 13:00:13,049:INFO:Preloading libraries
 2024-10-20 13:00:13,049:INFO:Set up data.
 2024-10-20 13:00:13,052:INFO:Set up index.
+2024-10-20 14:04:10,569:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 14:04:10,570:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 14:04:10,570:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 14:04:10,570:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-10-20 14:05:10,140:INFO:Initializing load_model()
+2024-10-20 14:05:10,141:INFO:load_model(model_name=linear_regression_pipeline, platform=None, authentication=None, verbose=True)
+2024-10-20 14:05:10,490:INFO:Initializing predict_model()
+2024-10-20 14:05:10,490:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x133532850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5km Czas [sek]',
+                                             '10km Czas [sek]',
+                                             '15km Tempo [min/km]', 'Wiek'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1334a9440>)
+2024-10-20 14:05:10,490:INFO:Checking exceptions
+2024-10-20 14:05:10,490:INFO:Preloading libraries
+2024-10-20 14:05:10,506:INFO:Set up data.
+2024-10-20 14:05:10,555:INFO:Set up index.
