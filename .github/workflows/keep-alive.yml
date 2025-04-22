@@ -2,19 +2,15 @@ name: Keep Streamlit App Alive
 
 on:
   schedule:
-    - cron: '15 */4 * * *'  # Uruchamia się co 4 godziny, o 15 minut po pełnej godzinie
+    - cron: '0 */10 * * *'  # Uruchamia się co 10 godzin
   workflow_dispatch:  # Umożliwia ręczne uruchomienie workflow do testowania
 
 jobs:
   empty-commit:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Create empty commit
         run: |
