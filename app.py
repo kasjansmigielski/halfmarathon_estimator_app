@@ -95,7 +95,7 @@ with st.sidebar:
 # MAIN
 #
 
-st.title('\U0001f3c3 Półmaraton Estymatoreee')
+st.title('\U0001f3c3 Półmaraton Estymator')
 
 st.write('---')
 
