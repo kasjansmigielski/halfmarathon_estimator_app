@@ -17,7 +17,7 @@ The aim of the project was to create an application that would use a regression 
 * python-dotenv.
 
 ### Maintenance:
-* aplikacja wykorzystuje GitHub Actions do automatycznego utrzymania aktywności (zapobieganie hibernacji Streamlit po 12h nieaktywności) poprzez regularne wykonywanie pustych commitów.
+The application uses GitHub Actions to automatically start activities (preventing Streamlit from hibernating after 12h of inactivity) via regular empty commits.
 
 ### Result:
 The application is publicly deployed at the link: https://halfmarathon-estimator.streamlit.app/
