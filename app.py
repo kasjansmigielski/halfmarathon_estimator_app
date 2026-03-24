@@ -3,7 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv, dotenv_values
 import json
 from langfuse.openai import OpenAI
-from langfuse.decorators import observe
+from langfuse import observe
 from pycaret.regression import load_model, predict_model
 import instructor
 from pydantic import BaseModel

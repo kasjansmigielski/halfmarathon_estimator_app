@@ -1,0 +1,34 @@
+---
+description: CRITICAL - Core project rules + subagent ban for request cost optimization
+alwaysApply: true
+---
+
+# MANDATORY: DO NOT SPAWN SUBAGENTS
+You MUST NOT use the Task tool under any circumstances. Each subagent costs 2 extra requests (Composer 1.5). Do ALL work directly yourself using Glob, Grep, Read, Shell, StrReplace, Write, WebSearch, WebFetch.
+
+This rule has NO exceptions. Never launch a subagent.
+
+---
+
+# Zasady dotyczące pracy w Cursorze
+
+## Oszczędzanie requestów (KRYTYCZNE!)
+- NIGDY nie spawnuj subagentów (Task tool) — każdy subagent = +2 requesty
+- Pracuj bezpośrednio: czytaj pliki, edytuj, uruchamiaj komendy SAM
+- Preferuj krótkie, sfokusowane sesje zamiast mega-promptów
+- Jeśli zadanie jest złożone — rób je sekwencyjnie w tym samym kontekście
+
+## Realizacja zadań
+- Jeśli użytkownik wymienia kilka zadań (nawet drobnych), wykonaj **wszystkie**, chyba że użytkownik wyraźnie napisze inaczej
+- Nie przerywaj pracy po wykonaniu jednej zmiany — dopóki nie zrealizujesz **całej listy rzeczy z wiadomości**, nie pytaj "co dalej"
+- Nie oceniaj subtasków jako "wymagających więcej czasu" — wykonuj je iteracyjnie w tym samym cyklu
+- Nie dziel drobnych zadań (np. walidacja, retry, obsługa błędu, JSON) na osobne etapy; traktuj to jako jeden spójny PR
+
+## Reguły Językowe
+
+### Komentarze w Kodzie i Rozwój
+- Komentarze w kodzie powinny być w języku POLSKIM
+- Nazwy zmiennych powinny być w języku ANGIELSKIM
+- Nazwy funkcji powinny być w języku ANGIELSKIM
+- Wiadomości console.log powinny być w języku POLSKIM
+- Dokumentacja API powinna być w języku ANGIELSKIM
